@@ -17,3 +17,15 @@ A Web application is usually divided into four layers:
 * **Server** − This layer has the Web server which can intercept the requests made by the clients and pass them the response.
 * **Business** − This layer contains the application server which is utilized by the web server to do the required processing. This layer interacts with the data layer via the database or some external programs.
 * **Data** − This layer contains the databases or any other source of data.
+
+## Express framework
+
+Express is a popular unopinionated web framework, written in JavaScript and hosted within the node.js runtime environment. It provides mechanisms to:
+* Write handlers for requests with different HTTP verbs at different URL paths (routes).
+* Integrate with "view" rendering engines in order to generate responses by inserting data into templates.
+* Set common web application settings like the port to use for connecting, and the location of templates that are used for rendering the response.
+* Add additional request processing "middleware" at any point within the request handling pipeline.
+
+## Handlebars.js
+
+Handlebars.js is a popular templating engine that is powerful, simple to use and has a large community. It is based on the Mustache template language, but improves it in several important ways. With Handlebars, you can separate the generation of HTML from the rest of your JavaScript and write cleaner code.
